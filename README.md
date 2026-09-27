@@ -10,7 +10,7 @@ The project aims to provide a structured understanding of the customer base and 
 
 ---
 
- ## Project Objective
+## Project Objective
 
 The main objective of this project is to create **Customer Profiles (CP)** based on defined demographic and behavioral parameters and to understand the characteristics and purchasing behavior of each profile.
 
@@ -21,7 +21,6 @@ The analysis aims to identify differences between customer groups in terms of:
 * Revenue contribution
 * Product preferences
 * Customer behavior and engagement
-* etc.
 
 ---
 
@@ -37,7 +36,7 @@ The dataset contains **17,049 e-commerce transactions** from **5,000 unique cust
 * **Customer Experience:** Delivery Time, Customer Rating
 * **Transaction Information:** Order ID, Customer ID, Date, Payment Method, Device Type
 
-Additional variables such as **Age Group, Discount Status, Demographic Profile, and Behavioral Profile** were created during the analysis.
+Additional variables such as **Age Group** and **Discount Status** were created during the data preparation stage. **Demographic Profiles** and **Behavioral Profiles** were created later as part of the analysis.
 
 ---
 
@@ -95,6 +94,7 @@ The profiles were compared using:
 * Order Count per Customer
 * Total Amount
 * Average Amount per Customer
+* Revenue Contribution (%)
 
 The profiles were also examined based on their product category preferences and loyalty-related purchasing behavior.
 
@@ -104,13 +104,13 @@ A performance scoring approach was used to compare the demographic groups across
 
 Behavioral Profiles were created to capture differences in **customer purchasing and engagement behavior**.
 
-The profiling process was performed at the **customer level**. Customer transactions were first aggregated to calculate behavioral indicators, after which customers were classified into behavioral levels and combined into behavioral patterns.
+The profiling process was performed at the **customer level**. Customer transactions were first aggregated to calculate behavioral indicators. Customers were then classified into behavioral levels, combined into behavioral patterns, and mapped to predefined Behavioral Profiles.
 
 The profiling process considered five main behavioral dimensions:
 
 * **Pages Viewed** — browsing and platform engagement
 * **Session Duration** — time spent on the platform
-* **Returning Customer Behavior** — frequency of returning purchases
+* **Returning Customer Behavior** — level of returning purchase behavior
 * **Discount Usage** — proportion of orders made with a discount
 * **Quantity** — average quantity purchased per order
 
@@ -147,12 +147,12 @@ Each customer was analyzed according to both their demographic and behavioral ch
 
 * Customer Count
 * Average Amount per Customer
-* Total Revenue
+* Total Amount
 * Product Category Preferences
 
 This analysis was used to identify the **highest-value Demographic & Behavioral Profile combinations** and to examine how customer behavior differs across demographic groups.
 
-The combination analysis showed that customer volume and customer value do not necessarily follow the same pattern, highlighting the importance of analyzing both dimensions together.
+The combination analysis showed that **customer volume and customer value do not necessarily follow the same pattern**, highlighting the importance of analyzing both dimensions together.
 
 ---
 
@@ -188,15 +188,15 @@ Revenue analysis further highlights the importance of specific behavioral groups
 
 **Loyal customers generate 22.30% of total revenue**, representing the largest revenue contribution among Behavioral Profiles. Standard customers contribute **18.72%**, while Engaged customers contribute **8.14%**.
 
-Together, these results show that a relatively small number of Behavioral Profiles account for a substantial share of total revenue.
+These results show that a relatively small number of Behavioral Profiles account for a substantial share of total revenue.
 
 ### Purchase Frequency and Customer Value
 
-The analysis of **Order Count per Customer** and **Average Amount per Customer** shows a positive relationship between purchasing frequency and customer value.
+The analysis of **Order Count per Customer** and **Average Amount per Customer** shows a **positive relationship between purchasing frequency and customer value**.
 
-Customers who purchase more frequently tend to generate higher customer-level value. The **Loyal** profile is particularly notable because it performs relatively strongly on both dimensions.
+The **Loyal** profile is particularly notable because it performs relatively strongly on both dimensions.
 
-This suggests that repeat purchasing behavior is an important characteristic when identifying higher-value customers within the dataset.
+This indicates that repeat purchasing behavior is an important characteristic when identifying higher-value customers within the dataset.
 
 ### Different Profiles Show Different Product Preferences
 
@@ -237,7 +237,7 @@ The analysis demonstrates that looking at customers from only one perspective ca
 
 **Demographic Profiles** help explain **who the customers are**, while **Behavioral Profiles** help explain **how they behave and purchase**. Combining both dimensions makes it possible to identify customer groups that are not only large in size, but also economically valuable.
 
-The results therefore support a more **customer-value-oriented approach to segmentation**, where customer count, purchasing frequency, revenue contribution, product preferences, and behavioral characteristics are considered together.
+The results support a more **customer-value-oriented approach to segmentation**, where customer count, purchasing frequency, revenue contribution, product preferences, and behavioral characteristics are considered together.
 
 ---
 

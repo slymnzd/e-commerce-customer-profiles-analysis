@@ -292,3 +292,15 @@ The analysis showed that **customer volume, purchasing frequency, and customer v
 The combination of Demographic and Behavioral Profiles provided an even more detailed view of customer value. In particular, the highest-value combinations were all associated with the **Loyal** Behavioral Profile, highlighting the importance of repeat purchasing behavior when evaluating valuable customer groups.
 
 Overall, the project demonstrates how customer profiling can transform transaction-level data into meaningful customer segments and business insights. The resulting profiles can support more targeted approaches to **customer retention, marketing, product recommendations, and customer value management**.
+
+---
+
+## Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Jupyter Notebook**
+* **Git & GitHub**

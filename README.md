@@ -22,3 +22,22 @@ The analysis aims to identify differences between customer groups in terms of:
 * Product preferences
 * Customer behavior and engagement
 * etc.
+
+---
+
+## Dataset
+
+The dataset contains **17,049 e-commerce transactions** from **5,000 unique customers** and includes demographic, purchasing, behavioral, and customer experience variables.
+
+### Main Data Categories
+
+* **Customer Demographics:** Age, Gender, City
+* **Purchase Information:** Product Category, Unit Price, Quantity, Discount Amount, Total Amount
+* **Customer Behavior:** Session Duration, Pages Viewed, Returning Customer
+* **Customer Experience:** Delivery Time, Customer Rating
+* **Transaction Information:** Order ID, Customer ID, Date, Payment Method, Device Type
+
+Additional variables such as **Age Group, Discount Status, Demographic Profile, and Behavioral Profile** were created during the analysis.
+
+---
+

@@ -7,3 +7,18 @@ This project analyzes e-commerce customer data to identify and understand differ
 The analysis focuses on customer purchasing behavior, engagement, customer value, and product preferences. Customers are grouped into **Demographic Profiles** and **Behavioral Profiles**, which are then analyzed individually and in combination.
 
 The project aims to provide a structured understanding of the customer base and identify customer groups that can support more targeted business and marketing decisions.
+
+---
+
+ ## Project Objective
+
+The main objective of this project is to create **Customer Profiles (CP)** based on defined demographic and behavioral parameters and to understand the characteristics and purchasing behavior of each profile.
+
+The analysis aims to identify differences between customer groups in terms of:
+
+* Customer value
+* Purchasing frequency
+* Revenue contribution
+* Product preferences
+* Customer behavior and engagement
+* etc.
